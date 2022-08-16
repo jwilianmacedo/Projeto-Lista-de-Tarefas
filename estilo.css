@@ -1,0 +1,100 @@
+body {
+  background: #7a9ba1;
+  font: normal 15pt Arial;
+}
+
+header {
+  margin: 0px;
+  color: white;
+  background-image: linear-gradient(to bottom, #3a6e86, #062f4d);
+  min-width: 150px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+section {
+  background: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 90px;
+  width: 500px;
+  margin: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+input[type="text"] {
+  height: 25px;
+  font-weight: bold;
+}
+
+input[type="button"] {
+  height: 30px;
+  font-weight: bold;
+}
+
+.esqdir {
+  display: flex;
+}
+
+.esquerdo {
+  margin-right: 300px;
+}
+
+nav > a {
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+
+nav a:hover {
+  background-color: #062f4d;
+  color: white;
+}
+
+.container-tarefas {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.container-tarefa {
+  width: 80%;
+}
+
+.container-icones {
+  width: 20%;
+  justify-content: flex-end;
+  display: flex;
+  align-items: flex-start;
+}
+
+.icone-verifica {
+  margin-right: 6px;
+}
+
+img {
+  cursor: pointer;
+}
+
+.filter-option {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.filter-option:hover {
+  text-decoration: underline;
+}
+
+.container-center {
+  display: flex;
+  justify-content: center;
+}
+
+.container-filters {
+  display: flex;
+}
